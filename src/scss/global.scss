@@ -1,8 +1,13 @@
 @charset "utf-8";
+@import url(./font.scss);
 
 :root {
   --red: #ea7664;
   --black: #111;
   --brown: #89757a;
   --beige: #f6f5f5;
+}
+
+body {
+  font-family: 'NanumGeumEunBoHwa';
 }

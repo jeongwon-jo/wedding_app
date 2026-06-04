@@ -39,6 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:19.2.3"],\
           ["classnames", "npm:2.5.1"],\
           ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:2.30.0"],\
           ["eslint", "npm:8.57.1"],\
           ["eslint-config-prettier", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:10.1.8"],\
           ["eslint-config-react-app", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:7.0.1"],\
@@ -51,6 +52,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:19.2.7"],\
           ["react-scripts", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:5.0.1"],\
           ["sass", "npm:1.100.0"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -8187,6 +8189,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["date-fns", [\
+      ["npm:2.30.0", {\
+        "packageLocation": "../../.yarn/berry/cache/date-fns-npm-2.30.0-895c790e0f-10c0.zip/node_modules/date-fns/",\
+        "packageDependencies": [\
+          ["@babel/runtime", "npm:7.29.7"],\
+          ["date-fns", "npm:2.30.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["dayjs", [\
       ["npm:1.11.21", {\
         "packageLocation": "../../.yarn/berry/cache/dayjs-npm-1.11.21-4094f6afc1-10c0.zip/node_modules/dayjs/",\
@@ -13487,6 +13499,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:19.2.3"],\
           ["classnames", "npm:2.5.1"],\
           ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:2.30.0"],\
           ["eslint", "npm:8.57.1"],\
           ["eslint-config-prettier", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:10.1.8"],\
           ["eslint-config-react-app", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:7.0.1"],\
@@ -13499,6 +13512,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:19.2.7"],\
           ["react-scripts", "virtual:5432f729438dfb3b421bd7574f7ead95c033f8fa905592d59065eede72a2e2fb5134c8d215ac35780fcd20f76efe51fc5adfab5f734517fe7997ac8e1b5f4d9e#npm:5.0.1"],\
           ["sass", "npm:1.100.0"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
@@ -16851,6 +16865,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ssr-window", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../.yarn/berry/cache/ssr-window-npm-4.0.2-01f9c0151e-10c0.zip/node_modules/ssr-window/",\
+        "packageDependencies": [\
+          ["ssr-window", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["stable", [\
       ["npm:0.1.8", {\
         "packageLocation": "../../.yarn/berry/cache/stable-npm-0.1.8-feb4e06de8-10c0.zip/node_modules/stable/",\
@@ -17302,6 +17325,16 @@ const RAW_RUNTIME_STATE =
           ["sax", "npm:1.6.0"],\
           ["stable", "npm:0.1.8"],\
           ["svgo", "npm:2.8.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:9.4.1", {\
+        "packageLocation": "../../.yarn/berry/cache/swiper-npm-9.4.1-38d46d35a3-10c0.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["ssr-window", "npm:4.0.2"],\
+          ["swiper", "npm:9.4.1"]\
         ],\
         "linkType": "HARD"\
       }]\

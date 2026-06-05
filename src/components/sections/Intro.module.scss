@@ -1,0 +1,56 @@
+@use '../../scss/utils' as *;
+
+.contents__intro {
+  @include txt-content;
+
+  .wedding_persons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    span {
+      font-size: 24px;
+      letter-spacing: 1.4px;
+      font-weight: bold;
+    }
+
+    .icon_heart {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      animation: global(heartbeat) 1.2s ease-in-out infinite;
+      transform-origin: center;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .wedding_location {
+    text-align: center;
+    margin-top: 18px;
+
+    span {
+      display: block;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .wedding_message {
+    margin-top: 16px;
+
+    div {
+      @include txt-content;
+    }
+  }
+
+  .icon_bouquet {
+    display: inline-block;
+    margin-top: 24px;
+  }
+}

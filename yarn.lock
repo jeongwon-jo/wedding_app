@@ -9993,6 +9993,7 @@ __metadata:
     json-server: "npm:^1.0.0-beta.15"
     prettier: "npm:^3.8.3"
     react: "npm:^19.2.7"
+    react-day-picker: "npm:^8.10.1"
     react-dom: "npm:^19.2.7"
     react-scripts: "npm:5.0.1"
     sass: "npm:^1.100.0"
@@ -11204,6 +11205,16 @@ __metadata:
     regenerator-runtime: "npm:^0.13.9"
     whatwg-fetch: "npm:^3.6.2"
   checksum: 10c0/7079c81717f4707d078943ab507771c3e80333e6c2c80c8d9a02e4a5661974e9bb196aea9f56336f559214a23f495c5f3907937d13a070e701019ae7a9d53c26
+  languageName: node
+  linkType: hard
+
+"react-day-picker@npm:^8.10.1":
+  version: 8.10.2
+  resolution: "react-day-picker@npm:8.10.2"
+  peerDependencies:
+    date-fns: ^2.28.0 || ^3.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/701fe6dc0cc2de1430ddbf976c3a9e1f00b8b9970f1d11364047238d34e5f60f8089f505c8d9ec77faeef861b06a3b7b8ed6cc5d11d454abe46fe6b3a46270eb
   languageName: node
   linkType: hard
 

@@ -1,0 +1,21 @@
+.calendar {
+  .calendar_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 8px;
+    margin-bottom: 20px;
+    span {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      display: block;
+
+      &.txt-time {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@ export interface Wedding {
     invitation: string
   }
   galleryImages: string[]
-  attendCount: number
+  attendCount: string
   groom: Person & {
     parents: Person[]
   }

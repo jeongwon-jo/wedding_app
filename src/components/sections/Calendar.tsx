@@ -1,4 +1,4 @@
-import Section from '@shared/Section'
+import Section from '@/components/common/Section'
 import classNames from 'classnames/bind'
 import { format, parseISO } from 'date-fns'
 import { ko } from 'date-fns/locale'

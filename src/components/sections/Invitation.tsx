@@ -1,6 +1,6 @@
-import Section from '@shared/Section'
+import Section from '@/components/common/Section'
 import classNames from 'classnames/bind'
-import Text from '../shared/Text'
+import Text from '../common/Text'
 import styles from './Invitation.module.scss'
 
 const cx = classNames.bind(styles)

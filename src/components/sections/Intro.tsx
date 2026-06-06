@@ -1,5 +1,5 @@
-import Section from '@shared/Section'
-import Text from '@shared/Text'
+import Section from '@/components/common/Section'
+import Text from '@/components/common/Text'
 import classNames from 'classnames/bind'
 import { format, parseISO } from 'date-fns'
 import { ko } from 'date-fns/locale'

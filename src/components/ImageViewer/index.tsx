@@ -1,3 +1,4 @@
+import Dimmed from '@components/common/Dimmed'
 import classNames from 'classnames/bind'
 import 'swiper/css'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -19,7 +20,7 @@ function ImageViewer({
     return null
   }
   return (
-    <div className={cx('dimmed')}>
+    <Dimmed>
       <div className={cx('swiper_inner')}>
         <button type="button" className={cx('btn_close')} onClick={onClose}>
           <img src="/assets/close.png" alt="닫기 버튼" />
@@ -39,7 +40,7 @@ function ImageViewer({
           })}
         </Swiper>
       </div>
-    </div>
+    </Dimmed>
   )
 }
 

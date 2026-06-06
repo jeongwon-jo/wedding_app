@@ -1,0 +1,11 @@
+@use '../../scss/variable' as *;
+
+.dimmed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000000c6;
+  z-index: $dimmed-zindex;
+}

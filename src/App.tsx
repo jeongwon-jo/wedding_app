@@ -1,3 +1,4 @@
+import FullScreenMessage from '@/components/common/FullScreenMessage'
 import Calendar from '@components/sections/Calendar'
 import Contact from '@components/sections/Contact'
 import Heading from '@components/sections/Heading'
@@ -5,12 +6,13 @@ import ImageGallery from '@components/sections/ImageGallery'
 import Intro from '@components/sections/Intro'
 import Invitation from '@components/sections/Invitation'
 import Map from '@components/sections/Map'
+import Share from '@components/sections/Share'
 import Video from '@components/sections/Video'
 import { Wedding } from '@models/wedding'
-import FullScreenMessage from '@shared/FullScreenMessage'
 import classNames from 'classnames/bind'
 import { useEffect, useState } from 'react'
 import styles from './App.module.scss'
+import AttendCountModal from './components/AttendCountModal'
 
 const cx = classNames.bind(styles)
 
@@ -79,6 +81,8 @@ function App() {
           <Calendar date={date} />
           <Map location={location} />
           <Contact groom={groom} bride={bride} />
+          <Share groomName={groom.name} brideName={bride.name} date={date} />
+          <AttendCountModal wedding={wedding} />
         </div>
       </div>
     )

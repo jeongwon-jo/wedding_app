@@ -1,0 +1,45 @@
+.accordion {
+  margin-bottom: 8px;
+
+  .accordion_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    background-color: var(--beige);
+    padding: 0 12px;
+    border-radius: 6px;
+
+    span {
+      font-size: 16px;
+    }
+
+    .btn_arrow {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      transition: 0.35s;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .accordion_contents {
+    display: none;
+  }
+
+  &.open {
+    .accordion_header {
+      .btn_arrow {
+        transform: scaleY(-1);
+      }
+    }
+    .accordion_contents {
+      display: block;
+    }
+  }
+}

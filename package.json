@@ -12,11 +12,13 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "classnames": "^2.5.1",
+    "cloudinary": "^2.10.0",
     "date-fns": "^2.30.0",
     "react": "^19.2.7",
     "react-copy-to-clipboard": "^5.1.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^19.2.7",
+    "react-query": "^3.39.3",
     "react-scripts": "5.0.1",
     "sass": "^1.100.0",
     "swiper": "9",
@@ -55,6 +57,7 @@
     "eslint-plugin-prettier": "^5.5.6",
     "eslint-plugin-react": "^7.37.5",
     "json-server": "^1.0.0-beta.15",
-    "prettier": "^3.8.3"
+    "prettier": "^3.8.3",
+    "webpack-font-preload-plugin": "^1.5.0"
   }
 }

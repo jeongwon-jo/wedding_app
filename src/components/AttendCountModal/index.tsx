@@ -41,7 +41,8 @@ function AttendCountModal({ wedding }: { wedding: Wedding }) {
           method: 'PUT',
           body: JSON.stringify({
             ...wedding,
-            attendCount: wedding.attendCount + $input.current.value,
+            attendCount:
+              Number(wedding.attendCount) + Number($input.current.value),
           }),
           headers: {
             'Content-Type': 'application/json',
@@ -52,7 +53,7 @@ function AttendCountModal({ wedding }: { wedding: Wedding }) {
         close()
       },
     })
-  }, []) // eslint-disable-line
+  }, [close, haveSeenModal, open, wedding])
   return null
 }
 
